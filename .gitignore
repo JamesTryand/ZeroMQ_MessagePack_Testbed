@@ -1,0 +1,9 @@
+﻿packages/*
+packages/*
+ZeroMQ_MessagePack_Testbed.Client/bin/*
+ZeroMQ_MessagePack_Testbed.Client/obj/*
+ZeroMQ_MessagePack_Testbed.Models/bin/*
+ZeroMQ_MessagePack_Testbed.Models/obj/*
+ZeroMQ_MessagePack_Testbed.Server/bin/*
+ZeroMQ_MessagePack_Testbed.Server/obj/*
+*.suo

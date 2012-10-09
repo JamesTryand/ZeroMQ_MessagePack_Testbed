@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroMQ_MessagePack_Testbed.Client", "ZeroMQ_MessagePack_Testbed.Client\ZeroMQ_MessagePack_Testbed.Client.csproj", "{FA119D12-4BD0-4C96-90D7-1B68EE47D84B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroMQ_MessagePack_Testbed.Server", "ZeroMQ_MessagePack_Testbed.Server\ZeroMQ_MessagePack_Testbed.Server.csproj", "{DEA3261B-D339-4093-B6B2-829C67AE83DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroMQ_MessagePack_Testbed.Models", "ZeroMQ_MessagePack_Testbed.Models\ZeroMQ_MessagePack_Testbed.Models.csproj", "{F8FDDCFB-9231-4D55-9719-76AEA1B95E91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DF4377DE-2019-43E7-A1C3-B16454D32D22}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA119D12-4BD0-4C96-90D7-1B68EE47D84B}.Debug|x86.ActiveCfg = Debug|x86
+		{FA119D12-4BD0-4C96-90D7-1B68EE47D84B}.Debug|x86.Build.0 = Debug|x86
+		{FA119D12-4BD0-4C96-90D7-1B68EE47D84B}.Release|x86.ActiveCfg = Release|x86
+		{FA119D12-4BD0-4C96-90D7-1B68EE47D84B}.Release|x86.Build.0 = Release|x86
+		{DEA3261B-D339-4093-B6B2-829C67AE83DD}.Debug|x86.ActiveCfg = Debug|x86
+		{DEA3261B-D339-4093-B6B2-829C67AE83DD}.Debug|x86.Build.0 = Debug|x86
+		{DEA3261B-D339-4093-B6B2-829C67AE83DD}.Release|x86.ActiveCfg = Release|x86
+		{DEA3261B-D339-4093-B6B2-829C67AE83DD}.Release|x86.Build.0 = Release|x86
+		{F8FDDCFB-9231-4D55-9719-76AEA1B95E91}.Debug|x86.ActiveCfg = Debug|x86
+		{F8FDDCFB-9231-4D55-9719-76AEA1B95E91}.Debug|x86.Build.0 = Debug|x86
+		{F8FDDCFB-9231-4D55-9719-76AEA1B95E91}.Release|x86.ActiveCfg = Release|x86
+		{F8FDDCFB-9231-4D55-9719-76AEA1B95E91}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
